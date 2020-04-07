@@ -1,5 +1,5 @@
 # node-reptile
-###node.js爬虫小项目 
+###  node.js爬虫小项目 
 本项目采用以下几个node库
 
 - ```require请求库 ```
@@ -15,7 +15,7 @@ const bufs = iconv.decode(body, 'gb2312');
 const html = bufs.toString('utf8');
 ```
 
-- ```cheerio``` 服务端请求库 类似于jquery  本项主要的爬虫库
+- ```cheerio 服务端请求库 ``` 服务端请求库 类似于jquery  本项主要的爬虫库
 ```
 
 //获取数据
@@ -42,3 +42,4 @@ const fs = require('fs');
   console.log(movie);
 };
 ```
+
