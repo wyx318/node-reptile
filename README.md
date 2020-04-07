@@ -32,4 +32,13 @@ const getList = async (url) => {
   });
 };
 ```
-- 
+- ```fs```  node.js保存数据模块
+```
+const fs = require('fs');
+//文件保存
+  fs.appendFile('./public/index.js', JSON.stringify(movie), function () {
+    console.log('执行完成');
+  });
+  console.log(movie);
+};
+```
